@@ -44,6 +44,7 @@
             {
                 cadenaLista += $"{pointer.Data}\n";
                pointer= pointer.Next;
+
             }
 
 
