@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaLigada.Logica", "ListaLigada.Logica\ListaLigada.Logica.csproj", "{74976D4E-0319-4903-9895-B2DD55B72F2D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaLigada.UI.Consola", "ListaLigada.UI.Consola\ListaLigada.UI.Consola.csproj", "{63F9C6CE-11BF-41D1-A4A9-E64E11EA7AE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74976D4E-0319-4903-9895-B2DD55B72F2D} = {74976D4E-0319-4903-9895-B2DD55B72F2D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
